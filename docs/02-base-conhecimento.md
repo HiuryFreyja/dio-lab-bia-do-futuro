@@ -28,41 +28,14 @@ Sim, modifiquei alguns dados com base em um perfil de cliente que está buscando
 
 Carregando os arquivos via código como no exemplo abaixo ou usando os dados direto no prompt (Copiando e Colando)
 
-import csv
-import json
+ import json
+import pandas as pd 
 
-def importar_gastos_csv(arquivo_csv):
-    gastos = []
-
-    with open(arquivo_csv, newline='', encoding='utf-8') as csvfile:
-        leitor = csv.DictReader(csvfile)
-
-        for linha in leitor:
-            gasto = {
-                "valor": float(linha["valor"]),
-                "categoria": linha["categoria"],
-                "data": linha["data"],
-                "descricao": linha["descricao"]
-            }
-            gastos.append(gasto)
-
-    return gastos
-
-
-def salvar_em_json(gastos, arquivo_json):
-    with open(arquivo_json, "w", encoding="utf-8") as f:
-        json.dump(gastos, f, indent=4, ensure_ascii=False)
-
-
-arquivo_csv = "gastos.csv"
-arquivo_json = "gastos.json"
-
-gastos_importados = importar_gastos_csv(arquivo_csv)
-salvar_em_json(gastos_importados, arquivo_json)
-
-print("Dados importados com sucesso!")
-print(gastos_importados)
-
+# =================CARREGAR DADOS=================
+perfil = json.load(open('./data/perfil_investidor.json'))
+transacoes = pd.read_csv('./data/transacoes.csv')
+historico = pd.read_csv('./data/historico_atendimento.csv')
+produtos = json.load(open('./data/produtos_financeiros.json'))
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
