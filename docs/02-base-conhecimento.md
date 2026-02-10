@@ -31,7 +31,7 @@ Carregando os arquivos via código como no exemplo abaixo ou usando os dados dir
  import json
 import pandas as pd 
 
-# =================CARREGAR DADOS=================
+
 perfil = json.load(open('./data/perfil_investidor.json'))
 transacoes = pd.read_csv('./data/transacoes.csv')
 historico = pd.read_csv('./data/historico_atendimento.csv')
