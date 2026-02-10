@@ -167,6 +167,8 @@ Produtos e serviços disponíves para ensino:
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 
+Contém quase todos os dados listamos acima, mas de forma mais sentetizada e resumida.
+
 Dados do Cliente:
 - Nome: João Silva
 - Perfil: Moderado
