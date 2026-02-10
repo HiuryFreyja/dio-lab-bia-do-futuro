@@ -7,7 +7,7 @@
   "objetivo_principal": "Resolver problemas financeiros",
   "patrimonio_total": 15000.00,
   "reserva_emergencia_atual": 0,
-  "aceita_risco": false,
+  "aceita_risco": true,
   "metas": [
     {
       "meta": "Completar reserva de emergência",
