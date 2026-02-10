@@ -189,7 +189,7 @@ Dados do Cliente:
 - 2025-10-12 Uber, transporte, 45.00, saida:
 - 2025-10-15 Conta de Luz, moradia,180.00, saida:
 - 2025-10-20 Academia,saude, 99.00, saida:
-- 2025-10-25 Combustível, transporte, 250.00,saida:
+- 2025-10-25 Combustível, transporte, 250.00, saida:
 
 Serviços e Ajuda:
 - Tesouro Celic:
