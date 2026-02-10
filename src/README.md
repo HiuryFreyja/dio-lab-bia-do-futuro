@@ -4,7 +4,7 @@ Esta pasta contém o código do seu agente financeiro.
 
 
 ## Código fonte 
-Está no arquivo
+Está no arquivo app.py
 
 ## Exemplo de requirements.txt
 
