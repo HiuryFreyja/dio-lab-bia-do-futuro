@@ -40,4 +40,4 @@ Usa poucos dados, o que deixa de forma mais segura e inovadora pensando no meio 
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+https://youtu.be/2tmCao3ul4Q
